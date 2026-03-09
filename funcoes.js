@@ -1,13 +1,13 @@
 // funcao e declarada com: palavras reservadas "function" + nome da função();
 // os parteses gurdão o parametro
 function saudacao(nome) {
-    console.log ('Ola,', nome);
+    console.log('Ola,', nome);
 
 };
 saudacao("eu");
 //quando uma funcao retorna um valor: usar a palavra reservada "return"
 function calcDobro(numero) {
-    return numero*2;
+    return numero * 2;
 };
 // armazena a funçao com parametro dentro de uma constante ou variavel
 const numeroDobro = calcDobro(30);
@@ -20,18 +20,18 @@ const saud = (nome) => {
 
 };
 
-saud ("Eu");
+saud("Eu");
 
 const dobro = (num) => {
-    return num*2;
+    return num * 2;
 };
-const numeroDobrado = dobro (7);
+const numeroDobrado = dobro(7);
 console.log('O dobro de 7 ->', numeroDobrado);
 
 // FUNÇÃO SIMPLIFICADA
 //cont + nomeadaFuçao + parametro + açao
 const saudacao2 = nome2 => console.log('Oii, ', nome2);
-saudacao2 ('Euu');
+saudacao2('Euu');
 
 const dobro2 = numero => numero * 2;
 const numeroDobro2 = dobro2(13);

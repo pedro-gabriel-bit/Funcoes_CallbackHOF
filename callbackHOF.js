@@ -6,14 +6,14 @@
 
 
 function calcular(numero1, numero2, operacao) {
-    return operacao (numero1, numero2);
+    return operacao(numero1, numero2);
 };
 
-function soma (num1, num2) {
+function soma(num1, num2) {
     return num1 + num2;
 };
 
-function subtrair (num1, num2) {
+function subtrair(num1, num2) {
     return num1 - num2;
 };
 
@@ -23,4 +23,4 @@ console.log('a soma dos dois valores e: ', resultadosoma);
 
 
 const resultadosubtracao = calcular(25, 15, subtrair);
-console.log('a subtraçao dos dois numeros e: ',resultadosubtracao);
+console.log('a subtraçao dos dois numeros e: ', resultadosubtracao);
