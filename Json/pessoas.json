@@ -1,0 +1,23 @@
+[{
+  "nome": "Pedro",
+  "idade": 21,
+  "estuda": true,
+  "detalha_estudo": {
+    "curso": "Logica de Programaçao",
+    "insticao": "Senac"
+  },
+  "hobbies": ["cantar","dançar"]
+},
+{
+"nome": "Marcos",
+  "idade": 20,
+  "estuda": true,
+  "detalha_estudo": {
+    "curso": "Culinaria",
+    "insticao": "Senac santo amaro"
+},
+"hobbies": ["jogar bola", "dançar", "cantar"]
+}
+
+
+]
